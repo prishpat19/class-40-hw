@@ -1,0 +1,48 @@
+<!DOCTYPE html><html lang="en">
+  <head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.sound.min.js"></script>
+  <script src="libraries/matter.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
+  <!-- Link game.js and player.js -->
+
+
+
+  
+
+    
+    <script type="module">
+ 
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.0/firebase-app.js";
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.0/firebase.database-app.js";
+  
+  const firebaseConfig = {
+    apiKey: "AIzaSyASJTgj4I4oa-zYmD5YkKUGlgpIvZcv1oA",
+    authDomain: "car-racing-game-edf01.firebaseapp.com",
+    databaseURL: "https://car-racing-game-edf01-default-rtdb.firebaseio.com",
+    projectId: "car-racing-game-edf01",
+    storageBucket: "car-racing-game-edf01.appspot.com",
+    messagingSenderId: "912578867604",
+    appId: "1:912578867604:web:cccf6f6b46c0cfbec6df81"
+  };
+
+  
+  const app = initializeApp(firebaseConfig);
+</script>
+
+
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
